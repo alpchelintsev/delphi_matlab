@@ -1,0 +1,34 @@
+object MDIChild: TMDIChild
+  Left = 197
+  Top = 117
+  Width = 290
+  Height = 207
+  Color = clBtnFace
+  ParentFont = True
+  FormStyle = fsMDIChild
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poDefault
+  Visible = True
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnKeyUp = FormKeyUp
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Memo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 282
+    Height = 180
+    Align = alClient
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Fixedsys'
+    Font.Style = []
+    ParentFont = False
+    ScrollBars = ssBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+end
